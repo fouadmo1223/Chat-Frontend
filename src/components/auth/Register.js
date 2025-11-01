@@ -80,7 +80,7 @@ const Register = () => {
     if (!formData.password) newErrors.password = "Password is required";
     if (formData.password !== formData.confirmPassword)
       newErrors.confirmPassword = "Passwords do not match";
-    if (!file) newErrors.file = "Profile image is required";
+    // if (!file) newErrors.file = "Profile image is required";
 
     setErrors(newErrors);
     if (Object.keys(newErrors).length > 0) return;

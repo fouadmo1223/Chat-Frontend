@@ -184,15 +184,7 @@ const Login = () => {
         </Button>
 
         {/* Guest Login Button */}
-        <Button
-          mt={2}
-          colorPalette="red"
-          w="full"
-          onClick={handleGetGuestUser}
-          loading={loading}
-        >
-          Get Guest User Credential
-        </Button>
+        
       </VStack>
     </form>
   );
